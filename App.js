@@ -9,8 +9,8 @@ const parent = React.createElement(
   React.createElement(
     "div",
     { id: "child" },
-    React.createElement("h1", {}, "Hello India"),
-    React.createElement("h1", {}, "Hello India"),
+    React.createElement("h1", {}, "Hello United States of america"),
+    React.createElement("h1", {}, "Hello United States of america"),
     React.createElement("h1", {}, "Hello digital india"),
     React.createElement("h1", {}, "Hello digital india"),
     React.createElement("h1", {}, "Hello digital india"),
