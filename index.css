@@ -1,3 +1,64 @@
-#heading {
-  color: red;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 15px 40px -20px rgba(40, 44, 63, 0.15);
+  padding: 0px 80px;
+}
+.logo {
+  width: 100px;
+}
+.nav-items ul {
+  display: flex;
+  gap: 50px;
+}
+.nav-items ul li {
+  font-size: 21px;
+  list-style: none;
+  cursor: pointer;
+}
+.nav-items ul li:hover {
+  color: orange;
+  transition: 0.3s;
+}
+.body {
+  padding: 5px 90px;
+}
+.rescard-image {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 40px;
+  /* transition: transform 0.9s; */
+}
+.rescard-image :hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.restaurant-card {
+  display: flex;
+}
+.res-card {
+  background-color: #f0f0f0;
+  width: 290px;
+  border: 1px solid gray;
+  padding: 5px;
+  transition: transform 0.9s;
+  margin: 5px;
+}
+.res-logo {
+  width: 100%;
+}
+.res-card:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
 }
