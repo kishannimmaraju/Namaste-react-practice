@@ -88,3 +88,8 @@
 .search button {
   margin-left: 15px;
 }
+.footer {
+  font-size: 25px;
+  background-color: red;
+  text-align: center;
+}
